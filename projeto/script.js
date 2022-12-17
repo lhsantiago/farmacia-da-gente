@@ -30,7 +30,7 @@ function renderTable() {
             <td>${meds[i].medName}</td>
             <td>${meds[i].medQtd}</td>
             <td>${meds[i].medClass}</td>
-            <td><img src="./img/lixeira.png" onclick="removeMed(${i})"></td>
+            <td><img src="lixeira.png" onclick="removeMed(${i})"></td>
         </tr>
         `
     }
@@ -41,4 +41,10 @@ function removeMed(index) {
     renderTable()
 }
 
-renderTable()
+function resetForm(){
+    document.getElementById('fname').value = '';
+    document.getElementById('fqtd').value = '';
+    document.getElementById('fclass').value = '';
+}
+
+renderTable();
