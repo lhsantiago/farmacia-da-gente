@@ -1,0 +1,51 @@
+body {
+    background-color: #f4e9f2;
+    font-family: 'Raleway';
+}
+
+#top-section {
+    background: #76BEBE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#F5F5F5;
+}
+
+header {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #CF509C;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.logo {
+    width: 261px;
+    height: 160px;
+}
+
+#sec-form {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 56px;
+}
+
+form {
+    display: grid;
+    grid-auto-flow: row;
+    max-width: 467px;
+} 
